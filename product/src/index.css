@@ -1,0 +1,48 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent grey background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px; /* Adjust the width as needed */
+}
+
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.card-header{
+  text-align: center;
+}
+.cart{
+  align-items: center;
+  justify-content:flex-end;
+  display: flex;
+}
+.p{
+  transform: translateY(19px);
+  color: #ffffff;
+  text-align: center;
+  background-color: rgb(255, 49, 49);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* transform: translateX(21px); */
+  border-radius: 50%;
+}
+.material-symbols-outlined{
+  cursor: pointer !important;
+}
